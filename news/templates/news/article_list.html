@@ -1,0 +1,12 @@
+<html>
+    <head>
+    </head>
+    <body>
+        {% for article in articles %}
+            <div>
+            <a href= {{article.url}}>{{article.title}}</a>
+            <p>{{article.published_date}}</p>
+            </div>
+        {% endfor %}
+    </body>
+</html>
